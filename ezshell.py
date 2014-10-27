@@ -9,6 +9,8 @@ import signal
 # change your system configuration
 FAKE_EXEC = False
 
+__version__ = "0.1.0"
+
 
 def run(cmd, timeout=-1):
     if 'FAKE_EXEC' in globals() and FAKE_EXEC:
